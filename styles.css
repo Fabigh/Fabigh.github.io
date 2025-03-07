@@ -1,0 +1,185 @@
+/*Cuerpo de todo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ENCABEZADO DE MI PAGINA HERMOSA */
+header {
+    background-color: #f7e6d0;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 10px 50px #f7e6d0;
+}
+
+header h1 {
+    border: solid;
+    border-radius: 10px;
+    border-color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+}
+
+header p {
+    padding-top: 15px;
+    padding: 15px;
+    font-size: larger;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+/* Secciones */
+section {
+    padding: 50px 5%;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/*Estrutura de la foto principal*/
+.imagenes {
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.imagenes img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+/* mi familia seccion */
+.conten-family {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.conten-family p {
+    font-size: larger
+}
+
+.familiar {
+    max-width: 300px;
+    margin-bottom: 20px;
+    flex: 1 1 300px;
+}
+
+.familiar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+/* La galeria general */
+.recuerdos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.recuerdos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    object-position: center;
+    object-fit: cover;
+}
+
+figure {
+    margin: 0 auto;
+    padding: 15px;
+    background: #f7e6d8;
+    border: 2px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 1px 1px 10px black;
+    transition: transform 0.3s out;
+}
+
+figure:hover{
+    transform: scale(1.1)
+}
+
+figcaption {
+    display: block;
+    padding: 10px;
+    unicode-bidi: isolate;
+    font-size: larger;
+}
+
+/* formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 5px solid grey;
+    border-radius: 15px;
+}
+
+input, textarea {
+    border: 1px solid grey;
+    text-align: center;
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 1px 1px 15px grey;
+    border-radius: 10px;
+}
+
+form button {
+    background-color: #edc57f;
+    border: none;
+    width: 50%;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 30px black;
+    cursor: pointer;
+}
+
+/* El pie de pagina */
+footer {
+    background-color: #f7e6d0;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
