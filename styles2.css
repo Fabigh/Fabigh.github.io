@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    color: white;
+}
+
+nav {
+    background-color: #393939;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9191;
+}
+
+/* Sección Sobre Nosotros */
+.content {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+p {
+    font-size: 1.1rem;
+    color: black;
+}
+
+/* Biografías */
+.bio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bio-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio-info {
+    flex: 1;
+}
+
+.bio-role {
+    font-style: italic;
+    color: black;
+}
+
+.bio-description {
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+
+.bio-links a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.bio-links a:hover {
+    color: #ff3c00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+a {
+    color: #333;
+}
+
+footer .social-links img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+footer .contacto {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
